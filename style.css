@@ -1,0 +1,132 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    margin: 0;
+    padding: 0;
+}
+.first{
+    /* background-color: rgb(74, 74, 155); */
+    background: linear-gradient(to bottom, #4d1cc7b4, #310ace);
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px;
+}
+.second{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+.gray{
+    color: gray;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.down{
+    margin-top:200px;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: #0000ff1a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-color: black;
+    height: 27%;
+    width: 20%;
+    margin-left: 50px;
+    margin-top: -10px;
+    position: absolute;
+    top: 130px;
+    left: 40px;
+}
+.number{
+    position: absolute;
+    top:140px ;
+    left: 125px;
+    font-size: 30px;
+}
+.one{
+    padding: 20px;
+    color: red;
+    background-color: #ff00000d;
+    border-radius: 10px;
+    width: 85%;
+    display: inline;
+}
+.two{
+    padding: 20px;
+    color: yellow;
+    background-color: #ffff001A;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 85%;
+}
+.three{
+    padding: 20px;
+    color: Green;
+    background-color: #00ff000d;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 85%;
+}
+.four{
+    padding: 20px;
+    color: purple;
+    background-color:#8000800d;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 85%;
+}
+
+button{
+    border-radius: 20px;
+    background-color: rgb(7, 2, 34);
+    color: white;
+    padding: 15px 40px;
+    width: 100%;
+    margin-top: 15px;
+    border: none;
+}
+.space{
+    display: inline;
+    margin-left: 100px;
+    color: gray;
+}
+.num{
+    display: inline;
+    color: black;
+}
+.title{
+    margin-bottom: 35px;
+}
+.seven{
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.hundred{
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+}
+.white{
+    color: white;
+}
+.great{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
