@@ -119,10 +119,10 @@ button{
         flex-direction:column;
     }
     .first-box{
-        width: 50%;
+        width: 80%;
     }
     .second-box{
-        width: 50%;
+        width: 80%;
         height: fit-content;
     }
 }
